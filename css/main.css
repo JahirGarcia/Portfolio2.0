@@ -1,0 +1,105 @@
+/* Custom Properties */
+:root {
+  /* Colors */
+  --first-color: #D90062;
+  --firt-alpha-color: rgba(217,0,98,0.75);
+  --second-color: #14192D;
+  --second-alpha-color: rgba(20,25,45,0.75);
+  --third-color: #501464;
+  --third-alpha-color: rgba(80,20,100,0.75);
+  --white-color: #FFFFFF;
+  --gray-light-color: #F3F3F3;
+  --gray-color: #CCCCCC;
+  --gray-dark-color: #666666;
+  --black-color: #000000;
+  --link-color: #509EE3;
+  --title-color: #333333;
+  --text-color: #222222;
+  --white-alpha-color: rgba(255,255,255,0.5);
+  --black-alpha-color: rgba(background: 0,0,0,0.5);
+
+  /* Fonts */
+  --font-family: 'Raleway', sans-serif;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a {
+  color: var(--link-color);
+  transition: all 2s ease-out;
+}
+
+a:hover {
+  opacity: .75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: .85rem;
+}
+
+h6 {
+  font-size: .7rem;
+}
+
+img {
+  /* Elimina el margen inferior de las etiquesta img */
+  display: inline-block;
+  vertical-align: top;
+
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* Components */
+
+/* Utilities */
+.box-shadow {
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* Site Styles */
